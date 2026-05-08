@@ -23,9 +23,9 @@ except ImportError:
 _rembg_sessions = {}
 
 AI_MODELS = [
-    ("u2netp", "u2netp - 轻量快速 (~4MB)",
+    ("u2netp", "u2netp - 轻量快速 (~~4MB)",
      "通用场景 | 速度快，适合快速预览 | 精度中等，边缘略粗"),
-    ("u2net", "u2net - 标准精度 (~176MB)",
+    ("u2net", "u2net - 标准精度 (~~176MB)",
      "通用场景 | 精度高，边缘较细腻 | 速度中等，模型较大"),
     ("birefnet-general", "BiRefNet-General - 高精度通用",
      "复杂背景/精细边缘 | 当前最高精度 | 速度较慢，适合最终出图"),
